@@ -1,27 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+
 
 class App extends React.Component {
   render() {
     return (
       <OwlCarousel className="owl-theme" loop margin={10} nav>
         <div class="item">
-          <img src="assets/img/1.jpg" />
+          <img src="1.png" />
         </div>
         <div class="item">
-          <img src="assets/img/2.jpg" />
+          <img src="2.png" />
         </div>
         <div class="item">
-          <img src="assets/img/3.jpg" />
+          <img src="3.png" />
         </div>
         <div class="item">
-          <img src="assets/img/4.jpg" />
+          <img src="4.png" />
         </div>
         <div class="item">
-          <img src="assets/img/5.jpg" />
+          <img src="5.png" />
         </div>
       </OwlCarousel>
     );
